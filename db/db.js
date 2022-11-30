@@ -3,14 +3,12 @@ export default {
 		about: {
 			text: [
 				"Hi &#128075;",
-				"I'm Vinay Somawat. I’m currently working as a Software Engineer at Biofourmis India specialized in JavaScript Applications. I did my undergrad in CS from NIT Warangal.",
-				"I'm a developer, geek and curious human besides being an OpenSource enthusiast. I have experience of delivering solutions for interesting problems from startup and industry space.",
-				"I love to read, listen to music, and travel.",
-			],
+				"I'm Supreeth Mysore Venkatesh.",
+				],
 		},
 		contact: {
 			text: [
-				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email. My email address is: vinaysomawat40@gmail.com",
+				"If you would like to get in touch with me, be it for exploring a technology, a business, or to just say hi, feel free to send me an email. My email address is: supreethmv@gmail.com",
 			],
 		},
 	},
