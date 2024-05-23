@@ -1,20 +1,11 @@
-# arasgungore.github.io
+# supreethmv.github.io
 
-My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://arasgungore.github.io).
-
-
-
-## Screenshots
-
-<p float="center">
-    <img src="https://github.com/arasgungore/arasgungore.github.io/blob/main/Screenshots/1.png" width="800">
-</p>
-
+My portfolio website built using HTML, CSS, and JavaScript. You can check it out [here](https://supreethmv.github.io).
 
 
 ## Author
 
-👤 **Aras Güngöre**
+👤 **Supreeth Mysore Venkatesh**
 
-* LinkedIn: [@arasgungore](https://www.linkedin.com/in/arasgungore)
-* GitHub: [@arasgungore](https://github.com/arasgungore)
+* LinkedIn: [@supreethmv](https://www.linkedin.com/in/supreethmv)
+* GitHub: [@supreethmv](https://github.com/supreethmv)
