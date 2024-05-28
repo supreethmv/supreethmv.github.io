@@ -98,7 +98,7 @@ svg {
   margin-top: 0px;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
 
@@ -316,7 +316,7 @@ svg {
 
 #header.header-top h1 {
   margin-right: auto;
-  font-size: 36px;
+  font-size: 30px;
 }
 
 #header.header-top .container {
@@ -1168,4 +1168,72 @@ section .container {
   padding: 20px;
   background-color: #001f3f; /* Navy blue background for the card body */
   color: #ffffff; /* White text color for better contrast */
+}
+
+
+
+#publications .icon-box {
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+  background: #001f3f; /* Navy blue background */
+  color: #fff; /* White text */
+  box-shadow: 0 0 30px rgba(127, 137, 161, 0.25);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#publications .icon-box .icon {
+  margin-bottom: 15px;
+}
+
+#publications .icon-box .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #12d640;
+}
+
+#publications .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+#publications .icon-box h4 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#publications .icon-box p {
+  color: #fff;
+}
+
+#publications .icon-box .collapse {
+  margin-top: 15px;
+  text-align: left;
+}
+
+#publications .icon-box pre {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#publications .icon-box a {
+  color: #12d640;
+  text-decoration: none;
+}
+
+#publications .icon-box a:hover {
+  text-decoration: underline;
+}
+
+#publications .icon-box:hover {
+  transform: translateY(-10px);
+}
+
+#publications .icon-box:hover h4 a, #publications .icon-box:hover p {
+  color: #fff;
 }

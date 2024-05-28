@@ -53,6 +53,10 @@
 
     gtag('config', 'G-QB2LEER17H');
   </script>
+  
+  
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
 
   <!-- =======================================================
@@ -88,11 +92,11 @@
           <!-- <li><a href="index.html"> <span>Home</span></a></li> -->
           <li><a href="#about"> <span>About</span></a></li>
           <li><a href="#blogs"> <span>Blogs</span></a></li>
+          <li><a href="#publications"> <span>Publications</span></a></li>
           <li><a href="#education"> <span>Education</span></a></li>
           <li><a href="#experience"> <span>Experience</span></a></li>
           <li><a href="#projects"> <span>Projects</span></a></li>
           <li><a href="#skills"> <span>Skills</span></a></li>
-          <!-- <li><a href="#cv"> <span>CV</span></a></li> -->
           <li><a href="#contact"> <span>Contact</span></a></li>
         </ul>
       </nav>
@@ -159,7 +163,7 @@
             and industry. My current research focuses on developing advanced algorithms for computationally intensive 
             problems, with practical applications in satellite data analysis and management.<br><br>
             
-            I hold a Master's degree in Mathematics and Computer Science from Saarland University, Germany, where I contributed to the development of 
+            I hold a Master's degree in Mathematics and Computer Science from Saarland University, Germany. My Master's thesis involved development of 
             novel quantum algorithms for NP-hard problems, some of which are currently used by major companies. My Bachelor's degree 
             in Information Science and Engineering from the National Institute of Engineering, Mysuru, India laid the foundation for my career.<br><br>
             
@@ -231,11 +235,13 @@
           </div>
         </div> -->
 
-      </div>
+      <!-- </div>
     </div>
-  </section>
+  </section> -->
   <!-- End Blogs Section -->
 
+
+  <!-- ======= Blogs Section ======= -->
   <section id="blogs" class="services">
     <div class="container">
       <div class="section-title">
@@ -273,6 +279,237 @@
       </div>
     </div>
   </section>
+  <!-- End Blogs Section -->
+
+
+  <!-- ======= Publications Section ======= -->
+  <section id="publications" class="services">
+    <div class="container">
+      <div class="section-title">
+        <h1>Publications</h1>
+      </div>
+      <div class="row">
+
+      <!-- Add more publications here in the same format -->
+      <div class="col-lg-12" data-aos="fade-up">
+        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
+          <h4>
+            <a href="#publication6" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="publication6">
+              Qubit-efficient Variational Quantum Algorithms for Image Segmentation
+              <i class="bx bx-chevron-down"></i>
+            </a>
+          </h4>
+          <div class="collapse" id="publication6">
+            <p style="text-align:left;"><strong>Abstract:</strong> Quantum computing is expected to transform a range of computational tasks beyond the reach of classical algorithms. In this work, we examine the application of variational quantum algorithms (VQAs) for unsupervised image segmentation to partition images into separate semantic regions. Specifically, we formulate the task as a graph cut optimization problem and employ two established qubit-efficient VQAs, which we refer to as Parametric Gate Encoding (PGE) and Ancilla Basis Encoding (ABE), to find the optimal segmentation mask. In addition, we propose Adaptive Cost Encoding (ACE), a new approach that leverages the same circuit architecture as ABE but adopts a problem-dependent cost function. We benchmark PGE, ABE and ACE on synthetically generated images, focusing on quality and trainability. ACE shows consistently faster convergence in training the parameterized quantum circuits in comparison to PGE and ABE. Furthermore, we provide a theoretical analysis of the scalability of these approaches against the Quantum Approximate Optimization Algorithm (QAOA), showing a significant cutback in the quantum resources, especially in the number of qubits that logarithmically depends on the number of pixels. The results validate the strengths of ACE, while concurrently highlighting its inherent limitations and challenges. This paves way for further research in quantum-enhanced computer vision.</p>
+            <pre style="text-align:left;"><code>@article{venkatesh2024qubit,
+              title={Qubit-efficient Variational Quantum Algorithms for Image Segmentation},
+              author={Venkatesh, Supreeth Mysore and Macaluso, Antonio and Nuske, Marlon and Klusch, Matthias and Dengel, Andreas},
+              journal={arXiv preprint arXiv:2405.14405},
+              year={2024}
+            }
+            </code></pre>
+          </div>
+          <p>
+            <a href="https://arxiv.org/abs/2405.14405" target="_blank">Preprint</a>
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-12" data-aos="fade-up">
+        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
+          <h4>
+            <a href="#publication5" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="publication5">
+              Q-Seg: Quantum Annealing-based Unsupervised Image Segmentation
+              <i class="bx bx-chevron-down"></i>
+            </a>
+          </h4>
+          <div class="collapse" id="publication5">
+            <p style="text-align:left;"><strong>Abstract:</strong> In this study, we present Q-Seg, a novel unsupervised image segmentation method based on quantum annealing, tailored for existing quantum hardware. We formulate the pixel-wise segmentation problem, which assimilates spectral and spatial information of the image, as a graph-cut optimization task. Our method efficiently leverages the interconnected qubit topology of the D-Wave Advantage device, offering superior scalability over existing quantum approaches and outperforming state-of-the-art classical methods. Our empirical evaluations on synthetic datasets reveal that Q-Seg offers better runtime performance against the classical optimizer Gurobi. Furthermore, we evaluate our method on segmentation of Earth Observation images, an area of application where the amount of labeled data is usually very limited. In this case, Q-Seg demonstrates near-optimal results in flood mapping detection with respect to classical supervised state-of-the-art machine learning methods. Also, Q-Seg provides enhanced segmentation for forest coverage compared to existing annotated masks. Thus, Q-Seg emerges as a viable alternative for real-world applications using available quantum hardware, particularly in scenarios where the lack of labeled data and computational runtime are critical.</p>
+            <pre style="text-align:left;"><code>@article{venkatesh2023q,
+              title={Q-seg: Quantum annealing-based unsupervised image segmentation},
+              author={Venkatesh, Supreeth Mysore and Macaluso, Antonio and Nuske, Marlon and Klusch, Matthias and Dengel, Andreas},
+              journal={arXiv preprint arXiv:2311.12912},
+              year={2023}
+            }
+            </code></pre>
+          </div>
+          <p>
+            <!-- <a href="https://doi.org/10.1145/3587135.3592192" target="_blank">Publication</a> |  -->
+            <a href="https://arxiv.org/abs/2311.12912" target="_blank">Preprint</a> | 
+            <a href="https://github.com/supreethmv/q-seg" target="_blank">Code</a>
+          </p>
+        </div>
+      </div>
+      
+      <div class="col-lg-12" data-aos="fade-up">
+        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
+          <h4>
+            <a href="#publication4" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="publication4">
+              QuACS: Variational Quantum Algorithm for Coalition Structure Generation in Induced Subgraph Games
+              <i class="bx bx-chevron-down"></i>
+            </a>
+          </h4>
+          <div class="collapse" id="publication4">
+            <p style="text-align:left;"><strong>Abstract:</strong> Coalition Structure Generation (CSG) is an NP-Hard problem in which agents are partitioned into mutually exclusive groups to maximize their social welfare. In this work, we propose QuACS, a novel hybrid quantum classical algorithm for Coalition Structure Generation in Induced Subgraph Games (ISGs). Starting from a coalition structure where all the agents belong to a single coalition, QuACS recursively identifies the optimal partition into two disjoint subsets. This problem is reformulated as a QUBO and then solved using QAOA. Given an n-agent ISG, we show that the proposed algorithm outperforms existing approximate classical solvers with a runtime of \mathcal{O}(n^2) and an expected approximation ratio of 92\%. Furthermore, it requires a significantly lower number of qubits and allows experiments on medium-sized problems compared to existing quantum solutions. To show the effectiveness of QuACS we perform experiments on standard benchmark datasets using quantum simulation.</p>
+            <pre style="text-align:left;"><code>@inproceedings{10.1145/3587135.3592192,
+              author = {Venkatesh, Supreeth Mysore and Macaluso, Antonio and Klusch, Matthias},
+              title = {QuACS: Variational Quantum Algorithm for Coalition Structure Generation in Induced Subgraph Games},
+              year = {2023},
+              isbn = {9798400701405},
+              publisher = {Association for Computing Machinery},
+              address = {New York, NY, USA},
+              url = {https://doi.org/10.1145/3587135.3592192},
+              doi = {10.1145/3587135.3592192},
+              abstract = {Coalition Structure Generation (CSG) is an NP-Hard problem in which agents are partitioned into mutually exclusive groups to maximize their social welfare. In this work, we propose QuACS, a novel hybrid quantum-classical algorithm for Coalition Structure Generation in Induced Subgraph Games (ISGs). Starting from a coalition structure where all the agents belong to a single coalition, QuACS recursively identifies the optimal partition into two disjoint subsets. This problem is reformulated as a QUBO and then solved using QAOA. Given an n-agent ISG, we show that the proposed algorithm outperforms existing approximate classical solvers with a runtime of O(n2) and an expected approximation ratio of 92\%. Furthermore, it requires a significantly lower number of qubits and allows experiments on medium-sized problems compared to existing quantum solutions. To show the effectiveness of QuACS we perform experiments on standard benchmark datasets using quantum simulation.},
+              booktitle = {Proceedings of the 20th ACM International Conference on Computing Frontiers},
+              pages = {197–200},
+              numpages = {4},
+              keywords = {Coalition Game Theory, Quantum AI, Quantum Computing},
+              location = {Bologna, Italy},
+              series = {CF '23}
+              }
+            </code></pre>
+          </div>
+          <p>
+            <a href="https://doi.org/10.1145/3587135.3592192" target="_blank">Publication</a> | 
+            <a href="https://arxiv.org/abs/2304.07218" target="_blank">Preprint</a> | 
+            <a href="https://github.com/supreethmv/QuACS" target="_blank">Code</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-12" data-aos="fade-up">
+        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
+          <h4>
+            <a href="#publication3" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="publication3">
+              GCS-Q: Quantum Graph Coalition Structure Generation
+              <i class="bx bx-chevron-down"></i>
+            </a>
+          </h4>
+          <div class="collapse" id="publication3">
+            <p style="text-align:left;"><strong>Abstract:</strong> The problem of generating an optimal coalition structure for a given coalition game of rational agents is to find a partition that maximizes their social welfare and known to be NP-hard. Though there are algorithmic solutions with high computational complexity available for this combinatorial optimization problem, it is unknown whether quantum-supported solutions may outperform classical algorithms.
+              In this paper, we propose a novel quantum-supported solution for coalition structure generation in Induced Subgraph Games (ISGs). Our hybrid classical-quantum algorithm, called GCS-Q, iteratively splits a given n-agent graph game into two nonempty subsets in order to obtain a coalition structure with a higher coalition value. The GCS-Q solves the optimal split problem O(n) times, exploring $O(2^n)$ partitions at each step. In particular, the optimal split problem is reformulated as a QUBO and executed on a quantum annealer, which is capable of providing the solution in linear time with respect to n. We show that GCS-Q outperforms the currently best classical and quantum solvers for coalition structure generation in ISGs with its runtime in the order of $n^2$ and an expected approximation ratio of 93% on standard benchmark datasets.</p>
+            <pre style="text-align:left;"><code>@InProceedings{10.1007/978-3-031-36030-5_11,
+              author="Venkatesh, Supreeth Mysore
+              and Macaluso, Antonio
+              and Klusch, Matthias",
+              editor="Miky{\v{s}}ka, Ji{\v{r}}{\'i}
+              and de Mulatier, Cl{\'e}lia
+              and Paszynski, Maciej
+              and Krzhizhanovskaya, Valeria V.
+              and Dongarra, Jack J.
+              and Sloot, Peter M.A.",
+              title="GCS-Q: Quantum Graph Coalition Structure Generation",
+              booktitle="Computational Science -- ICCS 2023",
+              year="2023",
+              publisher="Springer Nature Switzerland",
+              address="Cham",
+              pages="138--152",
+              abstract="The problem of generating an optimal coalition structure for a given coalition game of rational agents is to find a partition that maximizes their social welfare and known to be NP-hard. Though there are algorithmic solutions with high computational complexity available for this combinatorial optimization problem, it is unknown whether quantum-supported solutions may outperform classical algorithms.",
+              isbn="978-3-031-36030-5"
+              }              
+            </code></pre>
+          </div>
+          <p>
+            <a href="https://doi.org/10.1007/978-3-031-36030-5_11" target="_blank">Publication</a> | 
+            <a href="https://arxiv.org/abs/2212.11372" target="_blank">Preprint</a> | 
+            <a href="https://github.com/supreethmv/GCS-Q" target="_blank">Code</a>
+          </p>
+        </div>
+      </div>
+
+
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
+            <h4>
+              <a href="#publication2" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="publication2">
+                BILP-Q: Quantum Coalition Structure Generation
+                <i class="bx bx-chevron-down"></i>
+              </a>
+            </h4>
+            <div class="collapse" id="publication2">
+              <p style="text-align:left;"><strong>Abstract:</strong> Quantum AI is an emerging field that uses quantum computing to solve typical complex problems in AI. In this work, we propose BILP-Q, the first-ever general quantum approach for solving the Coalition Structure Generation problem (CSGP), which is notably NP-hard. In particular, we reformulate the CSGP in terms of a Quadratic Binary Combinatorial Optimization (QUBO) problem to leverage existing quantum algorithms (e.g., QAOA) to obtain the best coalition structure. Thus, we perform a comparative analysis in terms of time complexity between the proposed quantum approach and the most popular classical baselines. Furthermore, we consider standard benchmark distributions for coalition values to test the BILP-Q on small-scale experiments using the IBM Qiskit environment. Finally, since QUBO problems can be solved operating with quantum annealing, we run BILP-Q on medium-size problems using a real quantum annealer (D-Wave).</p>
+              <pre style="text-align:left;"><code>@inproceedings{10.1145/3528416.3530235,
+                author = {Venkatesh, Supreeth Mysore and Macaluso, Antonio and Klusch, Matthias},
+                title = {BILP-Q: quantum coalition structure generation},
+                year = {2022},
+                isbn = {9781450393386},
+                publisher = {Association for Computing Machinery},
+                address = {New York, NY, USA},
+                url = {https://doi.org/10.1145/3528416.3530235},
+                doi = {10.1145/3528416.3530235},
+                abstract = {Quantum AI is an emerging field that uses quantum computing to solve typical complex problems in AI. In this work, we propose BILP-Q, the first-ever general quantum approach for solving the Coalition Structure Generation problem (CSGP), which is notably NP-hard. In particular, we reformulate the CSGP in terms of a Quadratic Binary Combinatorial Optimization (QUBO) problem to leverage existing quantum algorithms (e.g., QAOA) to obtain the best coalition structure. Thus, we perform a comparative analysis in terms of time complexity between the proposed quantum approach and the most popular classical baselines. Furthermore, we consider standard benchmark distributions for coalition values to test the BILP-Q on small-scale experiments using the IBM Qiskit environment. Finally, since QUBO problems can be solved operating with quantum annealing, we run BILP-Q on medium-size problems using a real quantum annealer (D-Wave).},
+                booktitle = {Proceedings of the 19th ACM International Conference on Computing Frontiers},
+                pages = {189–192},
+                numpages = {4},
+                keywords = {quantum computing, quantum AI, coalition game theory},
+                location = {Turin, Italy},
+                series = {CF '22}
+                }
+              </code></pre>
+            </div>
+            <p>
+              <a href="https://dl.acm.org/doi/abs/10.1145/3528416.3530235" target="_blank">Publication</a> | 
+              <a href="https://arxiv.org/abs/2204.13802" target="_blank">Preprint</a> | 
+              <a href="https://github.com/supreethmv/BILP-Q" target="_blank">Code</a>
+            </p>
+          </div>
+        </div>
+
+
+
+        <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch"> -->
+          <!-- <div class="icon-box"> -->
+        <div class="col-lg-12" data-aos="fade-up">
+          <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+            <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
+            <h4>
+              <a href="#publication1" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="publication1">
+                A practical approach for road quality estimation using smartphone based inertial data: IMU data processing pipeline to estimate road quality
+                <i class="bx bx-chevron-down"></i>
+              </a>
+            </h4>
+            <div class="collapse" id="publication1">
+              <p style="text-align:left;"><strong>Abstract:</strong> The tight financial situation in many municipalities does not allow them to record and evaluate the condition of their own transport infrastructure in detail. The present rule-based road quality estimation methods are outdated, very expensive and less accurate. The only subjective and non-recurring documentation leads to the fact that there is no resilient data basis for intelligent, data-based condition forecasts, which would actually be possible with methods of artificial intelligence (AI) and machine learning (ML). The considerable potential for cost minimization that such forecasts would open up via maintenance optimization remains untapped. In this research work, we demonstrate a road quality estimation system given the Inertial Measurement Unit (IMU) data from smartphone mounted on a vehicle. The system consists of a data preprocessing pipeline which removes many uncertainties along with more accurate geo-referencing of the raw data, and training a machine learning model to estimate road quality in terms of a continuous variable. Route quality information is gathered together with GPS tracking using the IMU data coming from smartphone mounted on a vehicle. The ground-truth (road quality) is obtained using conventional road quality measurement system. Next, distinctive features are obtained from the IMU raw data. Consequently, a machine learning model is trained to estimate the road quality from the obtained features with high performance.</p>
+              <pre style="text-align:left;"><code>@inproceedings{10.1145/3529399.3529414,
+                author = {Nagaraj, Deepak and Mutz, Marcel and Mysore Venkatesh, Supreeth and Riebschlaeger, Lea and Werth, Dirk},
+                title = {A Practical Approach for Road Quality Estimation using Smartphone based Inertial Data: IMU data processing pipeline to estimate road quality},
+                year = {2022},
+                isbn = {9781450395748},
+                publisher = {Association for Computing Machinery},
+                address = {New York, NY, USA},
+                url = {https://doi.org/10.1145/3529399.3529414},
+                doi = {10.1145/3529399.3529414},
+                abstract = {The tight financial situation in many municipalities does not allow them to record and evaluate the condition of their own transport infrastructure in detail. The present rule-based road quality estimation methods are outdated, very expensive and less accurate. The only subjective and non-recurring documentation leads to the fact that there is no resilient data basis for intelligent, data-based condition forecasts, which would actually be possible with methods of artificial intelligence (AI) and machine learning (ML). The considerable potential for cost minimization that such forecasts would open up via maintenance optimization remains untapped. In this research work, we demonstrate a road quality estimation system given the Inertial Measurement Unit (IMU) data from smartphone mounted on a vehicle. The system consists of a data preprocessing pipeline which removes many uncertainties along with more accurate geo-referencing of the raw data, and training a machine learning model to estimate road quality in terms of a continuous variable. Route quality information is gathered together with GPS tracking using the IMU data coming from smartphone mounted on a vehicle. The ground-truth (road quality) is obtained using conventional road quality measurement system. Next, distinctive features are obtained from the IMU raw data. Consequently, a machine learning model is trained to estimate the road quality from the obtained features with high performance.},
+                booktitle = {Proceedings of the 2022 7th International Conference on Machine Learning Technologies},
+                pages = {87–91},
+                numpages = {5},
+                keywords = {Sensor data processing, Road quality estimation, Predictive maintenance, Feature extraction},
+                location = {Rome, Italy},
+                series = {ICMLT '22}
+                }
+              </code></pre>
+            </div>
+            <p>
+              <a href="https://dl.acm.org/doi/abs/10.1145/3529399.3529414" target="_blank">Publication Link</a>
+            </p>
+          </div>
+        </div>
+
+        
+        
+      </div>
+    </div>
+  </section>
+  <!-- End Publications Section -->
+
+
+
 
   <!-- ======= Start Education Section ======= -->
 
@@ -543,7 +780,7 @@
               <img src="assets/img/experience/nie.jpg" class="img-fluid" style="float:left;margin:0 10px 0 0;" width="90">
             </a>
             <h4 style="text-align:left;">
-              <a href="http://www.nie.ac.in/" target="_blank" style="color:#12d640">The National Institute Of Engineering, Mysore</a>
+              <a href="http://www.nie.ac.in/" target="_blank" style="color:#12d640">The National Institute Of Engineering</a>
             </h4>
             <h5 style="text-align:left;">
               <em>Placement Coordinator</em>
