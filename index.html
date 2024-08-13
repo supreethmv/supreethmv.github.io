@@ -341,6 +341,32 @@
             </a>
           </h4>
           <div class="collapse" id="publication6">
+            <p style="text-align:left;"><strong>Abstract:</strong> The increasing number of Low Earth Orbit (LEO) satellites, driven by lower manufacturing and launch costs, is proving invaluable for Earth observation missions and low-latency internet connectivity. However, as the number of satellites increases, the number of communication links to maintain also rises, making the management of this vast network increasingly challenging and highlighting the need for clustering satellites into efficient groups as a promising solution. This paper formulates the clustering of LEO satellites as a coalition structure generation (CSG) problem and leverages quantum annealing to solve it. We represent the satellite network as a graph and obtain the optimal partitions using a hybrid quantum-classical algorithm called GCS-Q. The algorithm follows a top-down approach by iteratively splitting the graph at each step using a quadratic unconstrained binary optimization (QUBO) formulation. To evaluate our approach, we utilize real-world three-line element set (TLE/3LE) data for Starlink satellites from Celestrak. Our experiments, conducted using the D-Wave Advantage annealer and the state-of-the-art solver Gurobi, demonstrate that the quantum annealer significantly outperforms classical methods in terms of runtime while maintaining the solution quality. The performance achieved with quantum annealers surpasses the capabilities of classical computers, highlighting the transformative potential of quantum computing in optimizing the management of large-scale satellite networks.</p>
+            <pre style="text-align:left;"><code>@article{venkatesh2024qubit,
+              title={Quantum Annealing-Based Algorithm for Efficient Coalition Formation Among LEO Satellites},
+              author={Venkatesh, Supreeth Mysore and Macaluso, Antonio and Nuske, Marlon and Klusch, Matthias and Dengel, Andreas},
+              journal={arXiv preprint arXiv:2408.06007},
+              year={2024}
+            }
+            </code></pre>
+          </div>
+          <p>
+            <a href="https://arxiv.org/abs/2408.06007" target="_blank">Preprint</a>
+          </p>
+        </div>
+      </div>
+
+        
+      <div class="col-lg-12" data-aos="fade-up">
+        <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
+          <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
+          <h4>
+            <a href="#publication6" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="publication6">
+              Qubit-efficient Variational Quantum Algorithms for Image Segmentation
+              <i class="bx bx-chevron-down"></i>
+            </a>
+          </h4>
+          <div class="collapse" id="publication6">
             <p style="text-align:left;"><strong>Abstract:</strong> Quantum computing is expected to transform a range of computational tasks beyond the reach of classical algorithms. In this work, we examine the application of variational quantum algorithms (VQAs) for unsupervised image segmentation to partition images into separate semantic regions. Specifically, we formulate the task as a graph cut optimization problem and employ two established qubit-efficient VQAs, which we refer to as Parametric Gate Encoding (PGE) and Ancilla Basis Encoding (ABE), to find the optimal segmentation mask. In addition, we propose Adaptive Cost Encoding (ACE), a new approach that leverages the same circuit architecture as ABE but adopts a problem-dependent cost function. We benchmark PGE, ABE and ACE on synthetically generated images, focusing on quality and trainability. ACE shows consistently faster convergence in training the parameterized quantum circuits in comparison to PGE and ABE. Furthermore, we provide a theoretical analysis of the scalability of these approaches against the Quantum Approximate Optimization Algorithm (QAOA), showing a significant cutback in the quantum resources, especially in the number of qubits that logarithmically depends on the number of pixels. The results validate the strengths of ACE, while concurrently highlighting its inherent limitations and challenges. This paves way for further research in quantum-enhanced computer vision.</p>
             <pre style="text-align:left;"><code>@article{venkatesh2024qubit,
               title={Qubit-efficient Variational Quantum Algorithms for Image Segmentation},
