@@ -342,7 +342,7 @@
           </h4>
           <div class="collapse" id="publication7">
             <p style="text-align:left;"><strong>Abstract:</strong> The increasing number of Low Earth Orbit (LEO) satellites, driven by lower manufacturing and launch costs, is proving invaluable for Earth observation missions and low-latency internet connectivity. However, as the number of satellites increases, the number of communication links to maintain also rises, making the management of this vast network increasingly challenging and highlighting the need for clustering satellites into efficient groups as a promising solution. This paper formulates the clustering of LEO satellites as a coalition structure generation (CSG) problem and leverages quantum annealing to solve it. We represent the satellite network as a graph and obtain the optimal partitions using a hybrid quantum-classical algorithm called GCS-Q. The algorithm follows a top-down approach by iteratively splitting the graph at each step using a quadratic unconstrained binary optimization (QUBO) formulation. To evaluate our approach, we utilize real-world three-line element set (TLE/3LE) data for Starlink satellites from Celestrak. Our experiments, conducted using the D-Wave Advantage annealer and the state-of-the-art solver Gurobi, demonstrate that the quantum annealer significantly outperforms classical methods in terms of runtime while maintaining the solution quality. The performance achieved with quantum annealers surpasses the capabilities of classical computers, highlighting the transformative potential of quantum computing in optimizing the management of large-scale satellite networks.</p>
-            <pre style="text-align:left;"><code>@article{venkatesh2024qubit,
+            <pre style="text-align:left;"><code>@article{venkatesh2024quantum,
               title={Quantum Annealing-Based Algorithm for Efficient Coalition Formation Among LEO Satellites},
               author={Venkatesh, Supreeth Mysore and Macaluso, Antonio and Nuske, Marlon and Klusch, Matthias and Dengel, Andreas},
               journal={arXiv preprint arXiv:2408.06007},
@@ -351,12 +351,13 @@
             </code></pre>
           </div>
           <p>
-            <a href="https://arxiv.org/abs/2408.06007" target="_blank">Preprint</a>
+            <a href="https://arxiv.org/abs/2405.14405" target="_blank">Preprint</a> | 
+            <a href="https://github.com/supreethmv/LEO-satellites-coalition" target="_blank">Code</a>
           </p>
         </div>
       </div>
 
-        
+
       <div class="col-lg-12" data-aos="fade-up">
         <div class="col-md-12 mt-4 mt-md-0 icon-box" data-aos="fade-up" data-aos-delay="100">
           <!-- <div class="icon"><i class="bx bx-book"></i></div> -->
@@ -377,7 +378,8 @@
             </code></pre>
           </div>
           <p>
-            <a href="https://arxiv.org/abs/2405.14405" target="_blank">Preprint</a>
+            <a href="https://arxiv.org/abs/2405.14405" target="_blank">Preprint</a> | 
+            <a href="https://github.com/supreethmv/NISQ-seg" target="_blank">Code</a>
           </p>
         </div>
       </div>
@@ -392,17 +394,21 @@
             </a>
           </h4>
           <div class="collapse" id="publication5">
-            <p style="text-align:left;"><strong>Abstract:</strong> In this study, we present Q-Seg, a novel unsupervised image segmentation method based on quantum annealing, tailored for existing quantum hardware. We formulate the pixel-wise segmentation problem, which assimilates spectral and spatial information of the image, as a graph-cut optimization task. Our method efficiently leverages the interconnected qubit topology of the D-Wave Advantage device, offering superior scalability over existing quantum approaches and outperforming state-of-the-art classical methods. Our empirical evaluations on synthetic datasets reveal that Q-Seg offers better runtime performance against the classical optimizer Gurobi. Furthermore, we evaluate our method on segmentation of Earth Observation images, an area of application where the amount of labeled data is usually very limited. In this case, Q-Seg demonstrates near-optimal results in flood mapping detection with respect to classical supervised state-of-the-art machine learning methods. Also, Q-Seg provides enhanced segmentation for forest coverage compared to existing annotated masks. Thus, Q-Seg emerges as a viable alternative for real-world applications using available quantum hardware, particularly in scenarios where the lack of labeled data and computational runtime are critical.</p>
-            <pre style="text-align:left;"><code>@article{venkatesh2023q,
-              title={Q-seg: Quantum annealing-based unsupervised image segmentation},
+            <p style="text-align:left;"><strong>Abstract:</strong> We present Q-Seg, a novel unsupervised image segmentation method based on quantum annealing, tailored for existing quantum hardware. We formulate the pixel- wise segmentation problem, which assimilates spectral and spatial information of the image, as a graph-cut optimization task. Our method efficiently leverages the interconnected qubit topology of the D-Wave Advantage device, offering superior scalability over existing quantum approaches and outperforming several tested state-of-the-art classical methods. Empirical evaluations on synthetic datasets have shown that Q-Seg has better runtime performance than the state-of-the-art classical optimizer Gurobi. The method has also been tested on earth observation image segmentation, a critical area with noisy and unreliable annotations. In the era of noisy intermediate-scale quantum, Q-Seg emerges as a reliable contender for real-world applications in comparison to advanced techniques like Segment Anything. Consequently, Q-Seg offers a promising solution using available quantum hardware, especially in situations constrained by limited labeled data and the need for efficient computational runtime.</p>
+            <pre style="text-align:left;"><code>@ARTICLE{10669751,
               author={Venkatesh, Supreeth Mysore and Macaluso, Antonio and Nuske, Marlon and Klusch, Matthias and Dengel, Andreas},
-              journal={arXiv preprint arXiv:2311.12912},
-              year={2023}
-            }
+              journal={IEEE Computer Graphics and Applications}, 
+              title={Q-Seg: Quantum Annealing-Based Unsupervised Image Segmentation}, 
+              year={2024},
+              volume={},
+              number={},
+              pages={1-13},
+              keywords={Image segmentation;Quantum computing;Annealing;Quantum annealing;Image edge detection;Optimization;Measurement},
+              doi={10.1109/MCG.2024.3455012}}            
             </code></pre>
           </div>
           <p>
-            <!-- <a href="https://doi.org/10.1145/3587135.3592192" target="_blank">Publication</a> |  -->
+            <a href="https://ieeexplore.ieee.org/document/10669751" target="_blank">Publication</a> | 
             <a href="https://arxiv.org/abs/2311.12912" target="_blank">Preprint</a> | 
             <a href="https://github.com/supreethmv/q-seg" target="_blank">Code</a>
           </p>
