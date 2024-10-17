@@ -963,7 +963,7 @@ form {
       margin-top: -200px;
       height: 120vh;
       text-align: center;
-      transform: translateY(25%);
+      transform: translateY(20%);
   }
   #btnScrollToTop {
       display: none;
@@ -979,7 +979,7 @@ form {
       margin-top: -180px;
       height: 120vh;
       text-align: center;
-      transform: translateY(25%);
+      transform: translateY(20%);
   }
   #btnScrollToTop {
       display: none;
@@ -995,7 +995,7 @@ form {
       margin-top: -180px;
       height: 120vh;
       text-align: center;
-      transform: translateY(25%);
+      transform: translateY(20%);
   }
   #btnScrollToTop {
       display: none;
@@ -1011,7 +1011,7 @@ form {
       margin-top: -140px;
       height: 130vh;
       text-align: center;
-      transform: translateY(25%);
+      transform: translateY(20%);
   }
   .footer {
       margin-top: 6rem;
