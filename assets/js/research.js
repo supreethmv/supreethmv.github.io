@@ -9,7 +9,7 @@ const research = [
     conferences: "Quantum Software Engineering and Technology, IEEE Quantum Week 2024",
     researchYr: 2024,
     citebox: "popup1",
-    image: "assets/images/research-page/leoSatellites.jpg",
+    image: "assets/images/research-page/leosatellites.jpg",
     citation: {
       vancouver: "Supreeth Mysore Venkatesh, Antonio Macaluso, Marlon Nuske, Matthias Klusch, Andreas Dengel. Quantum Annealing-Based Algorithm for Efficient Coalition Formation Among LEO Satellites. arXiv preprint arXiv:2408.06007, 2024."
     },
