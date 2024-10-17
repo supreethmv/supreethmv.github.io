@@ -956,6 +956,9 @@ form {
       display: flex;
       justify-content: center;
   }
+  .navbar-brand {
+      font-size: 16px; /* Smaller font-size for mobile */
+  }
   .footer {
       padding-top: 10px;
   }
@@ -963,7 +966,7 @@ form {
       margin-top: -200px;
       height: 120vh;
       text-align: center;
-      transform: translateY(20%);
+      transform: translateY(25%);
   }
   #btnScrollToTop {
       display: none;
@@ -975,11 +978,12 @@ form {
       display: flex;
       justify-content: center;
   }
+
   #navbar-content {
       margin-top: -180px;
       height: 120vh;
       text-align: center;
-      transform: translateY(20%);
+      transform: translateY(25%);
   }
   #btnScrollToTop {
       display: none;
@@ -991,11 +995,14 @@ form {
       display: flex;
       justify-content: center;
   }
+  .navbar-brand {
+      font-size: 14px; /* Further decrease for smaller devices */
+  }
   #navbar-content {
       margin-top: -180px;
       height: 120vh;
       text-align: center;
-      transform: translateY(20%);
+      transform: translateY(25%);
   }
   #btnScrollToTop {
       display: none;
@@ -1007,11 +1014,14 @@ form {
       display: flex;
       justify-content: center;
   }
+  .navbar-brand {
+      font-size: 12px; /* Smallest size for very small devices */
+  }
   #navbar-content {
       margin-top: -140px;
       height: 130vh;
       text-align: center;
-      transform: translateY(20%);
+      transform: translateY(25%);
   }
   .footer {
       margin-top: 6rem;
