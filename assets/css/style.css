@@ -957,7 +957,10 @@ form {
       justify-content: center;
   }
   .navbar-brand {
-      font-size: 16px; /* Smaller font-size for mobile */
+      font-family: 'Pacifico', cursive;
+      font-size: 20px;
+      font-weight: bold;
+      /* font-size: 16px; */
   }
   .footer {
       padding-top: 10px;
@@ -996,7 +999,10 @@ form {
       justify-content: center;
   }
   .navbar-brand {
-      font-size: 14px; /* Further decrease for smaller devices */
+      font-family: 'Pacifico', cursive;
+      font-size: 18px;
+      font-weight: bold;
+      /* font-size: 14px; */
   }
   #navbar-content {
       margin-top: -180px;
@@ -1015,7 +1021,10 @@ form {
       justify-content: center;
   }
   .navbar-brand {
-      font-size: 12px; /* Smallest size for very small devices */
+      font-family: 'Pacifico', cursive;
+      font-size: 14px;
+      font-weight: bold;
+      /* font-size: 12px; */
   }
   #navbar-content {
       margin-top: -140px;
