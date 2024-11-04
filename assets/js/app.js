@@ -23,7 +23,7 @@ let header = $(`
 
 <div class="collapse navbar-collapse " id="navbarSupportedContent">
   <ul class="navbar-nav ml-auto" id = "navbar-content">
-    <li class="nav-item" style="margin-right: 24px;">
+    <li class="nav-item" style="margin-right: 24px; margin-left: 24px;">
       <a class="neon-button" href="https://supreethmv.com/blog" target="_blank" rel="noopener noreferrer">Visit Blog</a>
     </li>
    <li class="nav-item nav-item-hover"><a class="nav-link" href="/">Home</a></li>
