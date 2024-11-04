@@ -1141,3 +1141,31 @@ outline: none;
     transform: scale(0) rotateZ(-90deg);
   }
 }
+
+.neon-button {
+  color: #ffffff;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.neon-button:before,
+.neon-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.neon-button:hover {
+  color: #39ff14;
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #39ff14, 0 0 30px #39ff14;
+}
