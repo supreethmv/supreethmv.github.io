@@ -7,6 +7,13 @@ const projectcards = document.querySelector(".projectcards");
 
 const projects = [
   {
+    title: "Q-Seg: Quantum Magic for Image Segmentation (Yes, You Heard Right)",
+    cardImage: "assets/images/blogs/q-seg-overview.webp",
+    description: "Q-Seg: Quantum Annealing-Based Unsupervised Image Segmentation",
+    platform: "medium",
+    Previewlink: "https://medium.com/@supreethmv/q-seg-quantum-magic-for-image-segmentation-yes-you-heard-right-65b8da2c4bb7",
+  },
+  {
     title: "Square and Fair: The Role of Square Images in Deep Learning",
     cardImage: "assets/images/blogs/vgg16_square_devto.jpg",
     description: "Exploring the significance of square images in deep learning.",
