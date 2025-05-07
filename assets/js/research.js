@@ -204,6 +204,31 @@ const research = [
     citebox: "popup7",
     absbox: "absPopup7",
   },
+  {
+    title: "i-QLS: Quantum-supported Algorithm for Least Squares Optimization in Non-Linear Regression",
+    authors: "Supreeth Mysore Venkatesh, Antonio Macaluso, Diego Arenas, Matthias Klusch, Andreas Dengel",
+    conferences: "25th International Conference on Computational Science",
+    researchYr: 2025,
+    image: "assets/images/research-page/iqls.png",
+    bibtex: 
+    `
+    @misc{venkatesh2025iqls,
+      title={i-QLS: Quantum-supported Algorithm for Least Squares Optimization in Non-Linear Regression}, 
+      author={Venkatesh, Supreeth Mysore and Macaluso, Antonio and Nuske, Marlon and Klusch, Matthias and Dengel, Andreas},
+      year={2025},
+      eprint={2505.02788},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2505.02788}}`,
+    links: {
+      code: "https://github.com/supreethmv/i-QLS",
+      preprint: "https://doi.org/10.48550/arXiv.2505.02788",
+      paper: "https://www.researchgate.net/publication/391492883_i-QLS_Quantum-supported_Algorithm_for_Least_Squares_Optimization_in_Non-Linear_Regression",
+    },
+    abstract: "We propose an iterative quantum-assisted least squares (i-QLS) optimization method that leverages quantum annealing to overcome the scalability and precision limitations of prior quantum least squares approaches. Unlike traditional QUBO-based formulations, which suffer from a qubit overhead due to fixed discretization, our approach refines the solution space iteratively, enabling exponential convergence while maintaining a constant qubit requirement per iteration. This iterative refinement transforms the problem into an anytime algorithm, allowing for flexible computational trade-offs. Furthermore, we extend our framework beyond linear regression to non-linear function approximation via spline-based modeling, demonstrating its adaptability to complex regression tasks. We empirically validate i-QLS on the D-Wave quantum annealer, showing that our method efficiently scales to high-dimensional problems, achieving competitive accuracy with classical solvers while outperforming prior quantum approaches. Experiments confirm that i-QLS enables near-term quantum hardware to perform regression tasks with improved precision and scalability, paving the way for practical quantum-assisted machine learning applications.",
+    citebox: "popup8",
+    absbox: "absPopup8",
+  },
 ];
 
 function copyBibtex(id) {
