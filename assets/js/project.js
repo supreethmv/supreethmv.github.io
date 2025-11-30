@@ -10,8 +10,8 @@ const projects = [
     cardImage: "assets/images/project-page/qai2.jpg",
     description: "Quantum AI algorithms to solve Industry 4.0 and autonomous vehicle-related problems.",
     tagimg: "", // or a placeholder icon if you have it
-    Previewlink: "https://www.quantentechnologien.de/forschung/foerderung/quanteninformatik-algorithmen-software-anwendungen/qai2.html",
-    Githublink: "https://www.qai2.de/",
+    Previewlink: "https://www.qai2.de/",
+    Githublink: "",
   },
   {
     title: "KIKI",
